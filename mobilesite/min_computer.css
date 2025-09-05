@@ -1,0 +1,53 @@
+body {
+  background-color: lightpink;
+}
+
+h1,
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+p {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+p,
+h1,
+h2,
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+p,
+h1,
+h2,
+img {
+  padding-top: 3px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav a:link {
+  background-color: palevioletred;
+  padding: 0.5em;
+}
+nav a:visited {
+  background-color: palevioletred;
+}
+nav a:hover {
+  background-color: palevioletred;
+}
+nav a:active {
+  background-color: palevioletred;
+}
